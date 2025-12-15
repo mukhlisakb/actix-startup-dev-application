@@ -1,0 +1,9 @@
+[package]
+name = "app_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+shared = { path = "../shared" }
+async-trait = { workspace = true }
+thiserror = { workspace = true }
